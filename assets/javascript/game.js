@@ -1,7 +1,3 @@
-// $(".crystal-image").on("click", function() {
-//     alert("You clicked a crystal!");
-// })
-
 var wins=0;
 // $("#wins").html(wins)
 var losses=0;
@@ -9,8 +5,8 @@ var losses=0;
 
 var targetNumber = 53;
 $("#numToGuess").text(targetNumber);
-var guessesSoFar = [];
-$("#guessesSoFar").text(guessesSoFar)
+var guessesSoFar = 0;
+$("#guessesSoFar").text(guessesSoFar);
 
 // Here we created a counter, we'll be using this to track the user's total clicks
 var clicks = 0;
